@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
     UIButton *buttno = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    buttno.tag = 1000;
     [self.view addSubview:buttno];
     // Do any additional setup after loading the view, typically from a nib.
 }
