@@ -21,6 +21,7 @@
     buttno.tag = 1000;
     [self.view addSubview:buttno];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"");
 }
 
 - (void)didReceiveMemoryWarning {
